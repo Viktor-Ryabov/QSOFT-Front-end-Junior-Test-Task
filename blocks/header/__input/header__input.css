@@ -8,5 +8,11 @@
   font-weight: 400;
   border: none;
   align-content: center;
-  background-color: red;
 }
+
+@media (max-width: 500px) {
+  .header__input {
+    width: -webkit-fill-available;
+  }
+}
+

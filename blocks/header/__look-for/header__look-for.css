@@ -18,8 +18,10 @@
   }
 }
 
-@media (max-width: 475px) {
+
+@media (max-width: 500px) {
   .header__look-for {
+    max-width: calc(100% - 40px);
     margin: 0 20px 0 20px;
   }
 }
