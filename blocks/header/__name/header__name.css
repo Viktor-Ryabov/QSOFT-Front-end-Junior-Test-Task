@@ -1,0 +1,14 @@
+.header__name {
+  margin: 0 10px 0 0;
+  padding: 0;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 16.8px;
+  font-weight: 400;
+}
+
+@media (max-width: 475px) {
+  .header__name {
+    display: none;
+  }
+}

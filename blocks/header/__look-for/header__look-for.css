@@ -1,0 +1,25 @@
+.header__look-for {
+  margin: 0 80px 0 61px;
+  padding: 0;
+  max-width: 763px;
+  flex-grow: 4;
+  position: relative;
+}
+
+/* @media (max-width: 1440px) {
+  .header__look-for {
+    margin: 0 auto 0 auto;
+  }
+} */
+
+@media (max-width: 768px) {
+  .header__look-for {
+    margin: 0 70px 0 50px;
+  }
+}
+
+@media (max-width: 475px) {
+  .header__look-for {
+    margin: 0 20px 0 20px;
+  }
+}

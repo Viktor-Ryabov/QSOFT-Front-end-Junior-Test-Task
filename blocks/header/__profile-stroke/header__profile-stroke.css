@@ -1,0 +1,15 @@
+.header__profile-stroke {
+  margin: 0;
+  padding: 0;
+  width: 24px;
+  top: 22.23px;
+  right: 20.94px;
+  display: none;
+  position: absolute;
+}
+
+@media (max-width: 475px) {
+  .header__profile-stroke {
+    display: block;
+  }
+}

@@ -5,3 +5,11 @@
   font-family: "Roboto";
   font-weight: 400;
 }
+
+@font-face {
+  src: url(./__medium/roboto-medium.woff2) format("woff2"),
+    url(./__medium/roboto-medium.woff) format("woff"),
+    url(./__medium/roboto-medium.eot) format("eot");
+  font-family: "Roboto";
+  font-weight: 500;
+}

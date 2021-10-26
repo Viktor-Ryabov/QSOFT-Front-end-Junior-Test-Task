@@ -1,0 +1,21 @@
+.partners {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1170px;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
+
+@media (max-width: 1200px) {
+  .partners {
+    margin: 0 20px 0 20px;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 500px) {
+  .partners {
+    justify-content: center;
+  }
+}
